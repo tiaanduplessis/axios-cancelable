@@ -4,7 +4,7 @@
 [![package downloads](https://img.shields.io/npm/dm/axios-cancelable.svg?style=flat-square)](https://npmjs.org/package/axios-cancelable)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![package license](https://img.shields.io/npm/l/axios-cancelable.svg?style=flat-square)](https://npmjs.org/package/axios-cancelable)
-[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/axios-cancelable.svg)](https://greenkeeper.io/)
 
 > Utility for cancellation of requests when using axios
 
