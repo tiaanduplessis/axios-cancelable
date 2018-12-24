@@ -1,0 +1,47 @@
+{
+  "name": "axios-cancelable",
+  "version": "1.0.0",
+  "description": "Utility for cancellation of requests when using axios",
+  "source": "src/index.js",
+  "main": "dist/axios-cancelable.js",
+  "browser": "dist/axios-cancelable.umd.js",
+  "module": "dist/axios-cancelable.es.js",
+  "repository": "https://github.com/tiaanduplessis/axios-cancelable",
+  "homepage": "https://github.com/tiaanduplessis/axios-cancelable",
+  "bugs": "https://github.com/tiaanduplessis/axios-cancelable/issues",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "pretest": "yarn lint",
+    "test": "jest",
+    "lint": "eslint --fix src"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.15.0",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-nitpicky": "^3.3.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "jest": "^23.6.0",
+    "microbundle": "^0.9.0"
+  },
+  "peerDependencies": {
+    "axios": "*"
+  }
+}
